@@ -1,14 +1,7 @@
 
 import React from 'react';
-import { Card } from '@/components/ui/card';
 
 const About = () => {
-  const skills = [
-    { category: 'Frontend', items: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Bootstrap'], color: 'from-blue-500 to-cyan-500' },
-    { category: 'Backend', items: ['Python', 'Django', 'MySQL'], color: 'from-purple-500 to-pink-500' },
-    { category: 'Tools', items: ['Git', 'GitHub', 'VS Code'], color: 'from-green-500 to-teal-500' },
-  ];
-
   return (
     <section id="about" className="py-20 bg-gradient-to-b from-slate-900 to-slate-800 relative overflow-hidden">
       {/* Background elements */}
@@ -52,29 +45,6 @@ const About = () => {
                 I'm always eager to learn new technologies and collaborate on exciting projects that push 
                 the boundaries of what's possible.
               </p>
-            </div>
-
-            {/* Skills grid */}
-            <div className="grid gap-4">
-              {skills.map((skillGroup, index) => (
-                <Card key={index} className="backdrop-blur-lg bg-white/10 border border-white/20 p-6 hover:bg-white/15 transition-all duration-300">
-                  <div className="flex items-center space-x-4">
-                    <div className={`w-12 h-12 rounded-lg bg-gradient-to-r ${skillGroup.color} flex items-center justify-center`}>
-                      <span className="text-white font-bold text-lg">{skillGroup.category[0]}</span>
-                    </div>
-                    <div>
-                      <h4 className="text-white font-semibold mb-2">{skillGroup.category}</h4>
-                      <div className="flex flex-wrap gap-2">
-                        {skillGroup.items.map((skill, i) => (
-                          <span key={i} className="px-3 py-1 bg-gray-700/50 text-gray-300 rounded-full text-sm">
-                            {skill}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </Card>
-              ))}
             </div>
           </div>
         </div>
