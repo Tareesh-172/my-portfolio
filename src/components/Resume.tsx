@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-
 const Resume = () => {
-  return (
-    <section id="resume" className="py-20 bg-gradient-to-b from-slate-900 to-slate-800 relative overflow-hidden">
+  return <section id="resume" className="py-20 bg-gradient-to-b from-slate-900 to-slate-800 relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(34,197,94,0.1),transparent_50%)]"></div>
       
@@ -77,17 +74,11 @@ const Resume = () => {
 
               {/* Download button */}
               <div className="pt-8">
-                <Button 
-                  size="lg"
-                  className="bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white px-12 py-4 rounded-full font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
-                  onClick={() => {
-                    // For now, this will show an alert. In a real implementation, you'd link to the actual PDF
-                    alert('Resume download functionality would be implemented here. Please add your resume PDF to the public folder.');
-                    // window.open('/resume.pdf', '_blank');
-                  }}
-                >
-                  📄 Download Resume
-                </Button>
+                <Button size="lg" className="bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white px-12 py-4 rounded-full font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105" onClick={() => {
+                // For now, this will show an alert. In a real implementation, you'd link to the actual PDF
+                alert('Resume download functionality would be implemented here. Please add your resume PDF to the public folder.');
+                // window.open('/resume.pdf', '_blank');
+              }}>📄 Download Resume</Button>
                 <p className="text-gray-400 text-sm mt-4">
                   PDF format • Last updated: January 2024
                 </p>
@@ -96,8 +87,6 @@ const Resume = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Resume;
