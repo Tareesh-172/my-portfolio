@@ -33,11 +33,7 @@ const Hero = () => {
         {/* Profile image */}
         <div className="mb-8 flex justify-center">
           <div className="relative">
-            <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-400 to-purple-600 p-1 animate-pulse">
-              <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
-                <span className="text-4xl font-bold text-white">T</span>
-              </div>
-            </div>
+            
             
           </div>
         </div>
