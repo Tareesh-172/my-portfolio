@@ -58,7 +58,7 @@ const Resume = () => {
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-white font-bold text-xl">4+</span>
+                    <span className="text-white font-bold text-xl">5+</span>
                   </div>
                   <p className="text-white font-semibold">Projects Completed</p>
                   <p className="text-gray-400 text-sm">Web Applications</p>
