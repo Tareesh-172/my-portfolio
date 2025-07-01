@@ -51,24 +51,24 @@ const Resume = () => {
               <div className="grid md:grid-cols-3 gap-6 my-8">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-white font-bold text-xl">3+</span>
+                    <span className="text-white font-bold text-xl">6+</span>
                   </div>
-                  <p className="text-white font-semibold">Years Experience</p>
+                  <p className="text-white font-semibold">Months Experience</p>
                   <p className="text-gray-400 text-sm">Full Stack Development</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-white font-bold text-xl">10+</span>
+                    <span className="text-white font-bold text-xl">4+</span>
                   </div>
                   <p className="text-white font-semibold">Projects Completed</p>
                   <p className="text-gray-400 text-sm">Web Applications</p>
                 </div>
                 <div className="text-center">
                   <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <span className="text-white font-bold text-xl">5+</span>
+                    <span className="text-white font-bold text-xl">8+</span>
                   </div>
                   <p className="text-white font-semibold">Technologies</p>
-                  <p className="text-gray-400 text-sm">Mastered</p>
+                  <p className="text-gray-400 text-sm">In Front-End & Back-End</p>
                 </div>
               </div>
 
