@@ -36,8 +36,8 @@ const About = () => {
             <div className="backdrop-blur-lg bg-white/10 rounded-2xl p-8 border border-white/20">
               <h3 className="text-2xl font-bold text-white mb-4">My Journey</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                Hi, I’m Tareesh — an ECE graduate (2025) with a strong passion for full stack web development and building user-friendly applications. 
-                I enjoy working with modern technologies like React JS, JavaScript, Python (Django), SQL, HTML, CSS and Bootstrap..
+               Hi, I’m Tareesh — an ECE graduate (2025) with a strong passion for full-stack web development and building user-friendly applications.
+               I enjoy working with modern technologies like React JS, JavaScript, Python (Django), SQL, HTML, CSS, and Bootstrap.
               </p>
               <p className="text-gray-300 leading-relaxed mb-6">
                 During my internships, I got practical experience in front-end and full stack development. 
@@ -49,7 +49,7 @@ const About = () => {
               <p className="text-gray-300 leading-relaxed">
                  I'm dedicated, focused, and self-motivated, and I always strive to complete my tasks on time.<br/>
                  In my free time, I enjoy listening to music, which helps me relax and stay motivated.<br/>
-                 That’s all about me..
+                 That’s all about me...
               </p>
                 
             </div>
