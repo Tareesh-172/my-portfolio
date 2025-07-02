@@ -4,7 +4,7 @@ import { Card } from '@/components/ui/card';
 
 const Skills = () => {
   const skills = [
-    { category: 'Frontend', items: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Bootstrap'], color: 'from-blue-500 to-cyan-500' },
+    { category: 'Frontend', items: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'Bootstrap', 'jQuery'], color: 'from-blue-500 to-cyan-500' },
     { category: 'Backend', items: ['Python', 'Django', 'MySQL'], color: 'from-purple-500 to-pink-500' },
     { category: 'Tools', items: ['Git', 'GitHub', 'VS Code'], color: 'from-green-500 to-teal-500' },
   ];

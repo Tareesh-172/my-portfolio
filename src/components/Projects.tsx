@@ -8,29 +8,30 @@ const Projects = () => {
   const projects = [
     {
       title: "Weather App",
-      description: "A responsive weather application with real-time data and beautiful UI design",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
-      techStack: ["ReactJS", "JavaScript", "CSS3", "Weather API"],
-      liveDemo: "#",
-      github: "#",
+      description: "A responsive weather application that provides real-time weather updates for any location using live API data. Features include temperature, humidity, wind speed, and weather condition icons with a clean and user-friendly UI.",
+      image: "weather.png",
+      techStack: ["JavaScript", "CSS3","HTML", "Weather API"],
+      liveDemo: "https://tareesh-172.github.io/Weather-app/",
+      github: "https://github.com/Tareesh-172/Weather-app.git",
       emoji: "🌦️"
     },
     {
       title: "E-commerce Food Website",
-      description: "Full-stack food delivery platform with cart functionality and order management",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=250&fit=crop",
+      description: "full-stack project food delivery web app platform This project currently has a fully developed frontend, while key backend features such as payments and orders are still under development...",
+      image: "food.png",
       techStack: ["Django", "Python", "MySQL", "Bootstrap"],
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://smart-app-tau.vercel.app/",
+
+      github: "https://github.com/Tareesh-172/smart-app.git",
       emoji: "🍔"
     },
     {
       title: "Shopping Website",
-      description: "Modern e-commerce platform with user authentication and payment integration",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+      description: "full-stack shopping web app This project is currently under development, and key features like payment processing and order management are still being implemented...",
+      image: "shopping.png",
       techStack: ["ReactJS", "Django", "MySQL", "Bootstrap"],
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "https://shopping-app-rho-six.vercel.app/",
+      github: "https://github.com/Tareesh-172/Shopping-App.git",
       emoji: "🛍️"
     }
   ];
@@ -121,7 +122,7 @@ const Projects = () => {
             </p>
             <Button 
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300"
-              onClick={() => window.open('https://github.com', '_blank')}
+              onClick={() => window.open('https://github.com/Tareesh-172', '_blank')}
             >
               <Github className="w-5 h-5 mr-2" />
               View GitHub Profile

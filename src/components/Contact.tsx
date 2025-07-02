@@ -66,7 +66,7 @@ const Contact = () => {
             Let's <span className="bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Ready to bring your ideas to life? Let's discuss your next project or collaboration opportunity.
+            Ready to bring your ideas? Let's discuss your next project or collaboration opportunity.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-600 mx-auto rounded-full mt-4"></div>
         </div>
@@ -140,11 +140,11 @@ const Contact = () => {
               <Card className="backdrop-blur-lg bg-white/10 border border-white/20 p-8">
                 <h3 className="text-xl font-bold text-white mb-6">Connect with me</h3>
                 <div className="flex space-x-4">
-                  <Button variant="outline" size="lg" className="flex-1 border-white/20 text-white hover:bg-white/20 transition-all duration-300 hover:scale-105" onClick={() => window.open('https://github.com', '_blank')}>
+                  <Button variant="outline" size="lg" className="flex-1 border-white/20 text-white hover:bg-white/20 transition-all duration-300 hover:scale-105" onClick={() => window.open('https://github.com/Tareesh-172', '_blank')}>
                     <Github className="w-5 h-5 mr-2" />
-                    GitHub
+                    GitHub 
                   </Button>
-                  <Button variant="outline" size="lg" className="flex-1 border-white/20 text-white hover:bg-blue-600 transition-all duration-300 hover:scale-105" onClick={() => window.open('https://linkedin.com', '_blank')}>
+                  <Button variant="outline" size="lg" className="flex-1 border-white/20 text-white hover:bg-blue-600 transition-all duration-300 hover:scale-105" onClick={() => window.open('https://www.linkedin.com/in/pasarla-tareesh/', '_blank')}>
                     <Linkedin className="w-5 h-5 mr-2" />
                     LinkedIn
                   </Button>

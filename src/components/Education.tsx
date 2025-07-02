@@ -2,18 +2,18 @@ import React from 'react';
 import { Card } from '@/components/ui/card';
 const Education = () => {
   const education = [{
-    degree: "Bachelor of Technology",
-    field: "Computer Science Engineering",
-    institution: "University Name",
-    year: "2020 - 2024",
-    description: "Focused on software development, data structures, algorithms, and web technologies.",
+    degree: "Bachelor of Technology (B.Tech)",
+    field: "Electronic & Communnication Engineering (ECE)",
+    institution: "At JNTU Gurajada Vizianagaram",
+    year: "2021 - 2025",
+    description: "Developed a solid foundation in core electronics and communication concepts, while independently building strong skills in Web development.",
     color: "from-emerald-500 to-teal-500"
   }, {
-    degree: "Full Stack Development",
-    field: "Python & ReactJS",
-    institution: "Online Certification",
-    year: "2023",
-    description: "Specialized certification in Python Django backend and ReactJS frontend development.",
+    degree: "Full Stack Development (Internship)",
+    field: "ReactJS & Python, Django",
+    institution: "WebTech software solutions",
+    year: "2025",
+    description: "Specialized certification in Python Django backend and ReactJS, HTML,CSS,JavaScript frontend development and SQL database.",
     color: "from-blue-500 to-indigo-500"
   }];
   return <section id="education" className="py-20 bg-gradient-to-b from-slate-700 to-slate-800 relative overflow-hidden">
